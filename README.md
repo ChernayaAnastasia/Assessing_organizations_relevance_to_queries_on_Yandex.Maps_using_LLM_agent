@@ -81,7 +81,7 @@ python baseline/run_baseline.py --batch_size 5 --output_prefix baseline
 experiments/agent/run_agent_ipynb.ipynb
 
 #### Запуск агента
-python llm_relevance_agent/agent_runner.py --batch_size 5
+python llm_relevance_agent/main_runner.py --batch_size 5
 
 или через ноутбук:
 experiments/run_baseline_pipeline.ipynb
