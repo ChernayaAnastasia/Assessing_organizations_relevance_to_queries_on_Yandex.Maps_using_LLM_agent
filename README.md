@@ -92,7 +92,7 @@ llm_relevance_agent/
 │   ├── agent/                 # Предсказания разных версий агента
 │   │   ├── *.csv              # Предсказания
 │   │   ├── agent_error_analysis.ipynb  # Анализ ошибок агента и выводы проекта 
-│   │   ├── run_agent_ipynb.ipynb   # Для запуска бейзлайна в Jupiter Notebook 
+│   │   ├── run_agent_ipynb.ipynb   # Для запуска бейзлайна в Jupiter Notebook. Сохранены результаты запусков. 
 │   │   ├── agent_logs/
 │   │   ├── analysis_errors/
 │   │   ├── search_cache_v1/
