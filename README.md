@@ -34,9 +34,8 @@ llm_relevance_agent/
 │   └── search_tools.py        # Интеграция поиска (Tavily)
 │
 ├── data/                      # Датасеты 
-│   ├── data_final_for_dls.jsonl
-│   ├── data_final_for_dls_eval_new.jsonl
-│   └── data_final_for_dls_new.jsonl
+│   ├── data_final_for_dls.jsonl   
+│   └── data_final_for_dls_new.jsonl 
 │
 ├── experiments/               # Предсказания, логи и анализ
 │   ├── agent/                 # Предсказания разных версий агента
