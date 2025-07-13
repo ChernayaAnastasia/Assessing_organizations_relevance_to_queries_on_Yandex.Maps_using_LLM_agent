@@ -67,19 +67,21 @@ llm_relevance_agent/
 
 ### 🚀 Быстрый старт
 
-#### Установка зависимостей
+Загрузить [данные](https://drive.google.com/file/d/1WADIWzvNcQTA6X4FGYKV6f0m1z0URYhj/view?usp=sharing)
+
+#### Установить зависимости
 
 conda env create -f environment.yml
 
 conda activate llm_relevance
 
-#### Запуск бейзлайна
+#### Запустить бейзлайн
 python baseline/run_baseline.py --batch_size 5 --output_prefix baseline
 
 или через ноутбук:
 experiments/agent/run_agent_ipynb.ipynb
 
-#### Запуск агента
+#### Запустить агента
 python llm_relevance_agent/main_runner.py --batch_size 5
 
 или через ноутбук:
