@@ -79,11 +79,11 @@ conda activate llm_relevance
 python baseline/run_baseline.py --batch_size 5 --output_prefix baseline
 
 или через ноутбук:
-experiments/agent/run_agent_ipynb.ipynb
+experiments/run_baseline_pipeline.ipynb
 
 #### Запустить агента
 python llm_relevance_agent/main_runner.py --batch_size 5
 
 или через ноутбук:
-experiments/run_baseline_pipeline.ipynb
+experiments/agent/run_agent_ipynb.ipynb
 
